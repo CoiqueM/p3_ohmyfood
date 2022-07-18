@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    width: 95%;
+    margin: 2%;
+}
+img{
+    width: 50%;   
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+    background-color:#f7f4f4;
+}
+.fa-location-dot{
+    margin-left: 3%;
+}
+
+.localisation{
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    padding:2%;
+    background-color:lightgrey;
+}
+
+header h2{
+    width: 60%;
+}
+header p{
+    width:70%;
+}
+
+.explorer{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #9356DC;
+    color: white;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_fonctionnement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 55px;
+    background-color: #f7f4f4;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5%;
+}
+.fa-mobile-screen-button{
+    margin-right: 15%;
+}
+.fa-list-ul{
+    margin-right: 10%;
+}
+.fa-store{
+    margin-right: 17%;
+    color:#9356DC;
+}
+h2{
+    margin: 3%;
+}
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f4f4;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+    background-color: white;
+    border-radius: 3%;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+footer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color:grey;
+    text-decoration: none;
+    padding: 5%;
+}
+footer a {
+    color: white;
+    margin: 1%;
+    text-decoration: none;
+}
+.fa-utensils{
+    margin-right: 5%;
+}
+.fa-handshake-angle{
+    margin-right: 3%;
+}
+
+footer img{
+    width:25%;
+    padding-bottom: 5%;
+}
